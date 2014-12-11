@@ -22,9 +22,9 @@ class Plugin extends PluginBase
 
     public function register()
     {
-//        App::register( 'Clockwork\Support\Laravel\ClockworkServiceProvider' );
-//
-//        $alias = AliasLoader::getInstance();
-//        $alias->alias( 'Clockwork', 'Clockwork\Support\Laravel\Facade' );
+        App::register( 'Clockwork\Support\Laravel\ClockworkServiceProvider' );
+
+        $alias = AliasLoader::getInstance();
+        $alias->alias( 'Clockwork', 'Clockwork\Support\Laravel\Facade' );
     }
 }
