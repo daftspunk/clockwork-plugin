@@ -20,7 +20,7 @@ class Plugin extends PluginBase
         ];
     }
 
-    public function register()
+    public function boot()
     {
         App::register( 'Clockwork\Support\Laravel\ClockworkServiceProvider' );
 
