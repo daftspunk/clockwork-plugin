@@ -1,5 +1,6 @@
 {
   "name":        "qub/clockwork",
+  "type":        "october-plugin",
   "description": "Clockwork Developer Tools integration plugin for OctoberCMS",
   "homepage":    "http://octobercms.com",
   "keywords":    [
