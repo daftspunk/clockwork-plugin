@@ -2,21 +2,7 @@
 
 This plugin adds [Clockwork Developer Tools](https://github.com/itsgoingd/clockwork) integration plugin for [OctoberCMS](http://octobercms.com).
 
-To add your controller's runtime to timeline, add following to your base controller's constructor:
-
-```php
-$this->beforeFilter(function()
-{
-	Event::fire('clockwork.controller.start');
-});
-
-$this->afterFilter(function()
-{
-	Event::fire('clockwork.controller.end');
-});
-```
-
-Clockwork also comes with a facade, which provides an easy way to add records to the Clockwork log and events to the timeline. You can use alias:
+Clockwork comes with a facade, which provides an easy way to add records to the Clockwork log and events to the timeline. You can use alias:
 
 ```php
 use Clockwork\Support\Laravel\Facade as Clockwork

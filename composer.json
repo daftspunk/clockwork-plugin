@@ -17,6 +17,6 @@
   ],
   "require":     {
     "php":                 ">=5.4.0",
-    "itsgoingd/clockwork": "1.*"
+    "itsgoingd/clockwork": "~1.0"
   }
 }
